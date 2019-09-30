@@ -1,11 +1,11 @@
 ## Nova ProgressBar Card
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/razorsheep/nova-progressbar-card.svg?style=flat-square)](https://packagist.org/packages/razorsheep/nova-progressbar-card)
-[![Total Downloads](https://img.shields.io/packagist/dt/razorsheep/nova-progressbar-card.svg?style=flat-square)](https://packagist.org/packages/razorsheep/nova-progressbar-card)
-[![License](https://poser.pugx.org/razorsheep/nova-progressbar-card/license)](https://packagist.org/packages/razorsheep/nova-progressbar-card)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/signifly/nova-progressbar-card.svg?style=flat-square)](https://packagist.org/packages/signifly/nova-progressbar-card)
+[![Total Downloads](https://img.shields.io/packagist/dt/signifly/nova-progressbar-card.svg?style=flat-square)](https://packagist.org/packages/signifly/nova-progressbar-card)
+[![License](https://poser.pugx.org/signifly/nova-progressbar-card/license)](https://packagist.org/packages/signifly/nova-progressbar-card)
 
 This package allows you to add progressbar cards to your resources and dashboards in [Nova](https://nova.laravel.com).
 
-<img src="https://github.com/razorsheep/nova-progressbar-card/blob/master/screenshot.png" alt="Example">
+<img src="https://github.com/signifly/nova-progressbar-card/blob/master/screenshot.png" alt="Example">
 
 #### DISCLAIMER: 
 This package is still work in progress. Feel free to help improve it.
@@ -25,7 +25,7 @@ ___
 ## Installation
 Just run:  
 ```bash
-composer require razorsheep/nova-progressbar-card
+composer require signifly/nova-progressbar-card
 ```
 After this the setup will be complete and you can use the components listed here.
 
@@ -34,7 +34,7 @@ ___
 ```php
 // in App\Nova\Product
 ...
-use Razorsheep\Nova\Cards\ProgressBar\ProgressBar;
+use Signifly\Nova\Cards\ProgressBar\ProgressBar;
 ...
 
 /**
